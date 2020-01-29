@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(calls)
   calls.each do |word|
-    print word
+    puts word
   end
 end
 
