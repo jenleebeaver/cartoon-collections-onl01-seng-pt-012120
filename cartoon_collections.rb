@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls_caps = []
-  planeteer_calls.map! {|word| word + "!"}
+  planeteer_calls_caps << planeteer_calls.map! {|word| word + "!"}
 end
 
 def long_planeteer_calls# code an argument here
