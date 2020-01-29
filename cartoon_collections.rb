@@ -15,7 +15,7 @@ def long_planeteer_calls(calls)
     yield(calls[i])
     i += 1
   end
-  
+
   if calls.length > 4
     true
   else
