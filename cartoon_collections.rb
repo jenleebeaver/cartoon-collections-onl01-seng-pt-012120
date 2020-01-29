@@ -25,4 +25,3 @@ def find_the_cheese(snacks)
 end
 
   # the array below is here to help
-  
