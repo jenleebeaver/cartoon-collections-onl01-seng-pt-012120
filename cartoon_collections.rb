@@ -11,11 +11,12 @@ end
 def long_planeteer_calls(calls)
 
   calls.each do |word|
-    if word.length <= 4
-      return false
-    else
-      return true
-    end
+    puts word.length
+    #if word.length <= 4
+    #  return false
+    #else
+      #return true
+    #end
   end
 end
 
