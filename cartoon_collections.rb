@@ -9,17 +9,14 @@ planeteer_calls.map! {|word| word.capitalize + "!"}
 end
 
 def long_planeteer_calls(calls)
-
+  
   calls.each do |word|
-
     if word.length > 4
       return true
-    elsif word.length <= 4
-      return false
-    else
-      nil
     end
   end
+
+  return false
 end
 
 def find_the_cheese# code an argument here
