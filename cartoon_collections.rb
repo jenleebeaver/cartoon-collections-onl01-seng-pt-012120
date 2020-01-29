@@ -5,6 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(planeteer_calls)
+  planeteer_calls_caps = []
   planeteer_calls.map! {|word| word + "!"}
 end
 
