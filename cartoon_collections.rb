@@ -21,8 +21,8 @@ end
 
 def find_the_cheese(snacks)
   if snacks.detect("cheddar", "gouda", "camembert")
-    return 
-    
+    return
+
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
