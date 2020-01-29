@@ -9,9 +9,8 @@ planeteer_calls.map! {|word| word.capitalize + "!"}
 end
 
 def long_planeteer_calls(calls)
-  
+
   calls.each do |word|
-    puts word
     if word > 4
       return true
     else
