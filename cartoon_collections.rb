@@ -9,7 +9,10 @@ planeteer_calls.map! {|word| word.capitalize + "!"}
 end
 
 def long_planeteer_calls(calls)
-  calls.length > 4
+  if calls.length > 4
+    true 
+  else
+    false
   # Your code here
 end
 
