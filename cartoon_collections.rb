@@ -1,11 +1,10 @@
 def roll_call_dwarves(dwarves)
   dwarves.each_with_index do |dwarves, i|
-    puts "#{i+1}. #{dwarves}"
+    puts "#{i + 1}. #{dwarves}"
   end
 end
 
-def summon_captain_planet(planeteer_calls)
-  planeteer_calls_caps << planeteer_calls.capitalize
+def summon_captain_planet# code an argument here
   # Your code here
 end
 
