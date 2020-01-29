@@ -12,12 +12,11 @@ def long_planeteer_calls(calls)
   
   calls.each do |word|
     puts word
-  end
-
-  if word > 4
-    return true
-  else
-    return false
+    if word > 4
+      return true
+    else
+      return false
+    end
   end
 end
 
