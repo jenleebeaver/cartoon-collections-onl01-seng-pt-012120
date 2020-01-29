@@ -9,6 +9,7 @@ planeteer_calls.map! {|word| word.capitalize + "!"}
 end
 
 def long_planeteer_calls(calls)
+  
   calls.each do |word|
     puts word
   end
