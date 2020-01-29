@@ -20,7 +20,7 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(snacks)
-   snacks.detect{|word| word.include?(snacks)}
+   snacks.detect{|word| word.include?(cheese_types)}
 end
 
   # the array below is here to help
